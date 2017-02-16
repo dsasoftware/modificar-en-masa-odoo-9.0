@@ -4,11 +4,11 @@ import xmlrpclib
 import re
 
 
-HOST='190.114.253.252'
+HOST='190.14.253.255'
 PORT=8069
 DB='db'
 USER='falconsoft.3d@gmail.com'
-PASS='1234567890'
+PASS='1234120'
 url ='http://%s:%d/xmlrpc/' % (HOST,PORT)
 
 common_proxy = xmlrpclib.ServerProxy(url+'common')
